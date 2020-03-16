@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil Stocks</title>
+    <link rel='stylesheet' type='text/css' href='/css/style.css'>
+</head>
+<body>
+    <main>
+        <h1>Welcome to StockChecker</h1>
+        <form>
+            <input id="input" type="text" name="input" placeholder="Write here" autocomplete="off">
+            <button type="submit" id="submit">SUBMIT</button>
+        </form>
+        <div id=contenedor>
+            <div id=response>
+                <div id=header>
+                    <img id=companyLogo src="https://financialmodelingprep.com/images-New-jpg/AAPL.jpg">
+                    <h2 id=companyName>Apple Inc</h2>
+                    <h2 id=symbol>AAPL</h2>
+                    <p id=changesPerc>0.19</p>
+                    <h2 id=price>265.44</h2>
+                </div>
+                <div id=description>
+                    <h3>About the company</h3>
+                    <p>Apple Inc is designs, manufactures and markets mobile communication and media devices and personal computers, and sells a variety of related software, services, accessories, networking solutions and third-party digital content and applications.</p>
+                </div>
+                <div class=moreInfo>
+                    <div id=ceo class=snippets>
+                        <h3>CEO</h3>
+                        <p>Timothy D. Cook</p>
+                    </div>
+                    <div id=website class=snippets>
+                        <h3>Website</h3>
+                        <p><a href="http://www.apple.com" target="_blank">http://www.apple.com</a></p>
+                    </div>
+                </div>
+                <div class=moreInfo class=snippets>
+                        <div id=industry class=snippets>
+                            <h3>Industry</h3>
+                            <p>Computer Hardware</p>
+                        </div>
+                        <div id=sector class=snippets>
+                            <h3>Sector</h3>
+                            <p>Technology</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+    </main>
+    <script type='text/javascript' src='/js/main.js'></script>
+    <script type='text/javascript' src='/js/helperFunctions.js'></script>
+</body>
+</html>
